@@ -9,8 +9,7 @@
 ; Get 2 max values from [x y z] and return sum of squares
 (defn exercise_1_3 [& args]
   (reduce +
-    (map
-      (fn [x] (* x x))
+    (map #(* % %)
       (take-last 2 (sort args)))))
 
 ; Plus or minus, depending on the value of b
