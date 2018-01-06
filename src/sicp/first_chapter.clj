@@ -1,4 +1,4 @@
-(ns sicp-on-clojure.core)
+(ns sicp.first_chapter)
 
 (defn foo
   "I don't do a whole lot."

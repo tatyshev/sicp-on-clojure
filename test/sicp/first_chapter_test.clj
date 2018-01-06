@@ -1,6 +1,6 @@
-(ns sicp-on-clojure.core-test
+(ns sicp.first_chapter_test
   (:require [clojure.test :refer :all]
-            [sicp-on-clojure.core :refer :all]))
+            [sicp.first_chapter :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
