@@ -1,6 +1,6 @@
-; square root newton's method
+; Square root Newton's method
 
-(ns sicp.first.1_6)
+(ns sicp.first.1_7)
 
 (def precision 0.001)
 
